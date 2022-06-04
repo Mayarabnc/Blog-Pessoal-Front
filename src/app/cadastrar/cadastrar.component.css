@@ -1,0 +1,26 @@
+#img-bg{
+    background-image: url("https://i.imgur.com/2bwgryq.jpg");
+
+    min-height: 1393px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botaoC:hover{
+    background-color: red;
+    color: white;
+    border: 0;
+}
+
+.botaoS:hover{
+    background-color: green;
+    color: white;
+    border: 0;
+   
+}
+
+.fonteS{
+    font-size: 20px;
+}
