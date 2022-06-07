@@ -26,7 +26,7 @@ export class EntrarComponent implements OnInit {
     this.auth.entrar(this.usuarioLogin).subscribe((resp: UserLogin)=>{
       this.usuarioLogin = resp
 
-      environment.toke = this.usuarioLogin.token;
+      environment.token = this.usuarioLogin.token;
       environment.foto = this.usuarioLogin.foto;
       environment.nome = this.usuarioLogin.nome;
       environment.id = this.usuarioLogin.id;
@@ -42,7 +42,7 @@ export class EntrarComponent implements OnInit {
 
 }
 
-  /* mostrar os dados no console
+  /* mostrar os dados da variavel no console
       // console.log(environment.toke)
       // console.log(environment.foto)
       // console.log(environment.nome)

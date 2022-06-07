@@ -1,0 +1,23 @@
+.fs-54{
+    font-size: 54px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.btn-laranja{
+    color: rgb(255, 115, 0) !important;
+    border-color: rgb(255, 115, 0) !important;
+}
+
+.btn-laranja:hover{
+    background-color: rgb(255, 115, 0) !important;
+    color: #343A40 !;
+}
+
+.bg-botao-laranja{
+    background-color: rgb(255, 115, 0) !important;
+    color: #343A40!important;
+}
+

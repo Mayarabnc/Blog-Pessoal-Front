@@ -1,6 +1,9 @@
 .fs-16{
     font-size: 16;
 }
-a{
+
+.efeitoLaranja:hover{
+    color: rgb(255, 115, 0) !important;
+    text-decoration: none;
     cursor: pointer;
 }
