@@ -8,9 +8,25 @@
     color: #343A40 !important;
 }
 
-.efeitoLaranja:hover{
+.btn-laranja-tabela{
     color: rgb(255, 115, 0) !important;
+    border-color: rgb(255, 115, 0) !important;
+}
+
+.btn-laranja-tabela:hover{
+    background-color: #343A40 !important;
+    color: rgb(255, 115, 0) !important;
+    border: #343A40;
+}
+
+.efeitoLaranja:hover{
+    color: #343A40 !important;
     text-decoration: none;
     cursor: pointer;
 }
 
+.bg-botao-laranja{
+    background-color: rgb(255, 115, 0) !important;
+    color: #343A40!important;
+    border: 0;
+}
