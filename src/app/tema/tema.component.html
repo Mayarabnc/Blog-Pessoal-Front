@@ -39,12 +39,12 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let tema of listaTemas">
-            <th>{{tema.id}}</th>
-            <td>{{tema.descricao}}</td>
+          <tr *ngFor="let item of listaTemas">
+            <th>{{item.id}}</th>
+            <td>{{item.descricao}}</td>
             <td class="d-flex justify-content-end">
-              <button class="btn bg-botao-laranja mr-3">Editar</button>
-              <button class="btn btn-laranja-tabela">Apagar</button>
+              <button class="btn bg-botao-laranja mr-3" [routerLink]="['/tema-editar', item.id]">Editar</button>
+              <button class="btn btn-laranja-tabela" [routerLink]="['/tema-deletar',item.id]">Apagar</button>
             </td>
           </tr>
         </tbody>

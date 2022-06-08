@@ -12,6 +12,8 @@ import { EntrarComponent } from './entrar/entrar.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
+import { TemaEditarComponent } from './editar/tema-editar/tema-editar.component';
+import { TemaDeletarComponent } from './deletar/tema-deletar/tema-deletar.component';
 
 
 
@@ -23,7 +25,9 @@ import { TemaComponent } from './tema/tema.component';
     EntrarComponent,
     CadastrarComponent,
     InicioComponent,
-    TemaComponent
+    TemaComponent,
+    TemaEditarComponent,
+    TemaDeletarComponent
   ],
   imports: [
     BrowserModule,

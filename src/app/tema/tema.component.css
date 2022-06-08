@@ -20,7 +20,7 @@
 }
 
 .efeitoLaranja:hover{
-    color: #343A40 !important;
+    color: rgb(255, 115, 0)  !important;
     text-decoration: none;
     cursor: pointer;
 }
