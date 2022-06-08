@@ -1,0 +1,16 @@
+.btn-laranja{
+    color: rgb(255, 115, 0) !important;
+    border-color: rgb(255, 115, 0) !important;
+}
+
+.btn-laranja:hover{
+    background-color: rgb(255, 115, 0) !important;
+    color: #343A40 !important;
+}
+
+.efeitoLaranja:hover{
+    color: rgb(255, 115, 0) !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+

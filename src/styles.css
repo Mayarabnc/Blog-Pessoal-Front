@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+html{                   /*suave*/
+    scroll-behavior: smooth;
+    /*toda ver que eu abaixar a tela será de forma */
+}
+
+.fs-54{
+    font-size: 54px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
